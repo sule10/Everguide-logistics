@@ -43,7 +43,7 @@ body{
   padding:14px 0;
 }
 .logo{display:flex;align-items:center;gap:12px}
-.logo img{height:46px;width:auto;display:block}
+.logo img{height:60px;width:auto;display:block}
 .brand-name{color:#fff;font-weight:600;font-family:"Montserrat",sans-serif}
 .nav-links{list-style:none;display:flex;gap:20px;margin:0;padding:0}
 .nav-links a{color:#fff;text-decoration:none;font-weight:500;padding:6px 8px;border-radius:6px}
@@ -195,3 +195,33 @@ input,button,textarea{font-family:inherit}
   .hero-content p{font-size:.98rem}
   .logo img{height:40px}
 }
+.company-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.company-name .tagline {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #d1d5db;
+}
+#about, 
+#capability, 
+#commitment {
+  background-color: var(--primary); /* same as header */
+  color: #fff;
+  padding: 60px 0;
+}
+
+/* Force all inner text to white */
+#about h2, #about h3, #about p, #about strong,
+#capability h2, #capability h3, #capability p, #capability strong,
+#commitment h2, #commitment h3, #commitment p, #commitment strong {
+  color: #fff !important;
+}
+
+
